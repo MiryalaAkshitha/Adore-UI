@@ -1,0 +1,7 @@
+:root{--primary-color:rgb(25,118,210);
+    --secondary-color:rgb(24,47,83);
+    --success-color:green;
+    --error-color:red;
+    --disabled-color:rgb(175,175,175);
+    --text-color:white;
+  }
