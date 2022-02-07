@@ -1,0 +1,86 @@
+.container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:auto;
+  
+  }
+  .buttons{
+    padding-top:0.625rem;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:0.625rem;
+    flex-wrap:wrap;
+  }
+  .btn{
+  
+    padding:0.625rem;
+    border-radius:0.5rem;
+    font-size:18px;
+    cursor:pointer;
+    border:none;
+    color:var(--text-color);
+  
+ 
+  }
+  .primary-btn, .primary-btn-hover{
+    background-color:var(--primary-color);
+  }
+  .secondary-btn, .secondary-btn-hover{
+    background-color:var(--secondary-color);
+  }
+  .send-btn, .delete-btn{
+    background-color:var(--primary-color);
+  }
+  .primary-btn-hover:hover{
+    opacity:0.9;
+  }
+  .secondary-btn-hover:hover{
+    opacity:0.9;
+  }
+  .success-btn{
+    background-color:var(--success-color);
+  }
+  .error-btn{
+    background-color:var(--error-color);
+  }
+  .outlined{
+    color:var(--secondary-color);
+    border:2px solid var(--secondary-color);
+   
+  }
+  .outlined-success{
+    color:var(--success-color);
+    border:2px solid var(--success-color);
+  }
+  .outlined-error{
+    color:var(--error-color);
+    border:2px solid var(--error-color);
+  }
+  .disabled{
+    color:var(--disabled-color);
+    border:2px solid ;
+    cursor:not-allowed;
+  }
+  .floating-btn{
+      display:grid;
+      place-content:center;
+border-radius:50%;
+    height:40px;
+    width:40px;
+    border:2px solid var(--primary-color);
+      color:var(--secondary-color);
+    font-size:25px;
+    
+  }
+  .camera, .edit{
+    border:none;
+    color:var(--secondary-color);
+  
+  }
+  .link-btn{
+    background-color:var(--secondary-color);
+    padding: 14px 25px;
+    text-decoration:underline;
+  }

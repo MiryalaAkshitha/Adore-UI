@@ -1,1 +1,2 @@
-@import "./variable.css"
+@import "./variable.css";
+@import "../components/button/button.css";
