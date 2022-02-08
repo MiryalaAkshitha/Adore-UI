@@ -1,0 +1,42 @@
+.badge-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  .badge {
+    display: flex;
+    gap: 30px;
+  }
+  
+  .badge_icon {
+    position: relative;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .round {
+    color:var(--text-color);
+    height: auto;
+    font-size: 15px;
+    min-width: 33px;
+    padding: 5px;
+    border-radius: 20px;
+    background-color:var(--error-color);
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: -13px;
+    top: -10px;
+    border: 2px solid var(--text-color);
+  }
+  .round-dot {
+    min-width: 14px;
+    height: 14px;
+    right: 5px;
+    top: 5px;
+  }
