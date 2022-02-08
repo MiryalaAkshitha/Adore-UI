@@ -2,7 +2,7 @@
   display: grid;
   place-content: center;
   height: auto;
-  font-size: 18px;
+  font-size:1.125rem;
 }
 .alert {
   display: flex;
