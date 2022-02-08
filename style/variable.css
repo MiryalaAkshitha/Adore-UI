@@ -2,6 +2,13 @@
     --secondary-color:rgb(24,47,83);
     --success-color:green;
     --error-color:red;
+    --warning-color:orange;
     --disabled-color:rgb(175,175,175);
     --text-color:white;
+    --info-color:rgb(30,146,244);
+    --outlined-success-color:rgb(237,247,238);
+    --outlined-warning-color:rgb(255,244,230);
+    --outlined-info-color:rgb(229, 246, 253);
+    --outlined-error-color:rgb(253,237,237);
+
   }
