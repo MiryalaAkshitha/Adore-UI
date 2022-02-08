@@ -6,7 +6,7 @@
   }
   .badge {
     display: flex;
-    gap: 30px;
+    gap:2rem;
   }
   
   .badge_icon {
@@ -22,21 +22,21 @@
     color:var(--text-color);
     height: auto;
     font-size: 15px;
-    min-width: 33px;
+    min-width:0.875rem;
     padding: 5px;
-    border-radius: 20px;
+    border-radius: 1.25rem;
     background-color:var(--error-color);
     position: absolute;
     display: flex;
     align-items: center;
     justify-content: center;
-    right: -13px;
-    top: -10px;
+    right: -0.8125rem;
+    top: -0.625rem;
     border: 2px solid var(--text-color);
   }
   .round-dot {
-    min-width: 14px;
-    height: 14px;
+    min-width: 0.875rem;
+    height:0.875rem;
     right: 5px;
     top: 5px;
   }
