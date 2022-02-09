@@ -1,0 +1,27 @@
+.main-input-container{
+  padding:1.25rem;
+  font-size:1.25rem;
+}
+
+.input {
+    display: block;
+    border: 0.094rem solid var(--dark-color);
+    border-radius:0.188rem;
+    height: 2rem;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+  }
+  .input:focus {
+    outline: none;
+    border: 0.094rem solid var(--info-color);
+  }
+  .radio-container, .checkbox-container{
+    display:flex;
+    gap:1.25rem;
+  }
+  .incorrect-password {
+    border: 0.094rem solid var(--error-color);
+  }
+  .incorrect {
+    color: var(--error-color);
+  }
