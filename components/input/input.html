@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>input-component</title>
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+  <div class="main-input-container">
+    <form class="input-container">
+        <div>
+          <label>Username * </label>
+          <input
+            type="text"
+            placeholder="Enter Username"
+            class="input"
+            required
+          />
+        </div>
+        <div>
+          <label class="incorrect">Password * </label>
+          <input
+            type="password"
+            placeholder="Enter Password"
+            class="input incorrect-password"
+            required
+          />
+          <div class="incorrect">
+            <p class="incorrect">Incorrect password</p>
+          </div>
+        </div>
+      </form>
+  
+      <!-- Radio -->
+      <div class="radio-container">
+        <div>
+          <input type="radio" name="radio" id="checked" />
+          <label for="checked">male</label>
+        </div>
+  
+        <div>
+          <input type="radio" name="radio" id="unchecked" />
+          <label for="unchecked">female</label>
+        </div>
+  
+        <div>
+          <input type="radio" name="radio" id="unchecked" disabled />
+          <label for="unchecked">Disabled</label>
+        </div>
+      </div>
+  
+      <!-- CheckBox -->
+      <div class="checkbox-container">
+        <div>
+          <input type="checkbox" id="checkbox1" />
+          <label for="checkbox1">Check box 1</label>
+        </div>
+  
+        <div>
+          <input type="checkbox" id="checkbox2" />
+          <label for="checkbox2">Check box 2</label>
+        </div>
+  
+        <div>
+          <input type="checkbox" id="checkbox-disabled" disabled />
+          <label for="checkbox-disabled">Disabled</label>
+        </div>
+      </div>
+  </div>
+</body>
+</html>
