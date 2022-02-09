@@ -149,10 +149,11 @@ p{
 
 .card-dismiss{
 
-    border:2px solid var(--dark-color);
+    /* border:2px solid var(--dark-color); */
   position:relative;
     display:flex;
     flex-direction: column;
+    
   
   }
   .fa-times-circle{

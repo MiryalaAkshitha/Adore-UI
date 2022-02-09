@@ -1,0 +1,13 @@
+
+.sm-text{
+    font-size:0.75rem;
+}
+.grey-text{
+    color:var(--paragraph-text-color);
+}
+.center-text{
+    text-align: center;
+}
+.padd{
+    padding:1.25rem;
+}
