@@ -1,0 +1,96 @@
+.avatar-container{
+    height:auto;
+    width:auto;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+  }
+  .avatar-sm, .avatar-md, .avatar-lg{
+    border:1px solid var(--dark-color);
+    width:12.5rem;
+    height:12.5rem;
+    border-radius:50%;
+    object-fit:cover;
+    
+  }
+  .avatars{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap: 0.625em;;
+    
+  }
+  .avatar-text{
+    border:1px solid var(--dark-color);
+    border-radius:50%;
+    display:grid;
+    place-content:center;
+    background-color:var(--idle-color);
+    width:6.25rem;
+    height:6.25rem;
+    font: size 1.875em;;
+  }
+  .avatar-sm{
+    width:5rem;
+    height:5rem;
+  }
+  .avatar-md{
+    width:7.5rem;
+    height: 7.5rem;;
+  }
+  .avatar-lg{
+    width:10rem;
+    height:10rem;
+  }
+  
+  /* badge on avatar */
+
+
+
+  .badge-onAvatar{
+    display:flex;
+    gap:1.25rem;
+  }
+  .Text{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:1.875rem;
+    background-color:var(--secondary-color);
+    color:var(--text-color);
+  }
+  
+  .avatar-badge-img, .Text{
+    width:5rem;
+    height:5rem;
+   border-radius:50%;
+    object-fit:cover;
+    border:1px solid var(--dark-color);
+  
+   
+  }
+  
+  .badge{
+    position:relative;
+  }
+  .status{
+    position:absolute;
+    right:0.75rem;
+    bottom:5px;
+    border-radius:50%;
+    height:15px;
+    width:15px;
+    border:1px solid var(--text-color);
+  
+  }
+  .status-online{
+    background-color:var(--success-color);
+  }
+  .status-dd{
+    background-color:var(--error-color);
+    
+  }
+  .status-idle{
+    background-color:var(--idle-color);
+  }
