@@ -14,7 +14,7 @@
     object-fit:cover;
     
   }
-  .Avatars{
+  .avatars{
     display:flex;
     justify-content:center;
     align-items:center;
