@@ -1,9 +1,9 @@
 .list-container{
-    font-size:20px;
+    font-size:1.25rem;
     padding-left:3.75rem;
 }
 .ul,.ol{
-padding-top:20px;
+padding-top:1.25rem;
 }
 .ul-square{
     list-style-type:square;
