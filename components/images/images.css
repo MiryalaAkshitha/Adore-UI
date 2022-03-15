@@ -1,9 +1,10 @@
-.responsive-img{
-    max-width:100%;
+.responsive__img{
+    max-width:50rem;
     object-fit: cover;
   }
-  .round-img{
+  .round__img{
     border-radius:50%;
     height:20rem;
     width:20rem;
   }
+  

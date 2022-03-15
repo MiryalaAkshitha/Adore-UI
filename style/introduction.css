@@ -1,0 +1,48 @@
+
+
+.side-bar{
+    padding:20px 10px 0 0px;
+    display:flex;
+    flex-direction: column;
+}
+.name{
+    margin:20px 0 20px 0px;
+    padding:0 200px;
+
+    
+}
+.pages-container{
+    display:flex;
+    padding:0 200px;
+
+
+}
+.content{
+    padding-top:20px;
+    font-family: 'Jost', sans-serif;
+}
+.component-heading{
+    border-bottom: 1px solid #e3e3e3;
+    font-weight: 600;
+    font-size:large;
+}
+.component{
+padding:15px;
+cursor:pointer;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+.main-content{
+    padding:25px 0 20px 30px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.content{
+    padding:10px;
+    font-size:18px;
+}

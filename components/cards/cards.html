@@ -1,151 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>cards</title>
-    <link rel="stylesheet" href="../../styles.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="/style/index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/styles/atom-one-dark.min.css"
+    integrity="sha512-Fcqyubi5qOvl+yCwSJ+r7lli+CO1eHXMaugsZrnxuU4DVpLYWXTVoHy55+mCb4VZpMgy7PBhV7IiymC0yu9tkQ=="
+    crossorigin="anonymous" />
 </head>
+
 <body>
-    <div class="card-container">
+  <div class="landing-page-name name">ADORE-UI</div>
+  <div class="pages-container">
+    <div class="side-bar">
+      <div class="component component-heading">Get Started</div>
+      <div class="component"><a href="/docs/getting-started/introduction.html">Installation</a></div>
+      <div class="component component-heading">Components</div>
+      <div class="component"> <a href="/components/alert/alert.html">Alert</a></div>
+      <div class="component"><a href="/components/avatar/avatar.html">Avatar</a></div>
+      <div class="component"><a href="/components/badge/badge.html">Badge</a></div>
+      <div class="component"><a href="/components/button/button.html">Button</a></div>
+      <div class="component"><a href="/components/cards/cards.html">Card</a></div>
+      <div class="component"><a href="/components/images/images.html">Image</a></div>
+      <div class="component"><a href="/components/input/input.html">Input</a></div>
+
+    </div>
+    <div class="main-content">
+      <h2 class="heading">Card</h2>
+      <p class="content">Cards are used for various purposes</p>
+    <!-- <div class=""></div> -->
+      <h2 class="heading"> Simple Card</h2>
+    <div class="card__container">
         <div class="card">
-            <div class="simple-card-img">
-            <img class="image"src="https://wallpaperaccess.com/full/2076350.jpg"alt="image"/>
+            <div class="simpleCard__img">
+            <img class="cardImage"src="https://wallpaperaccess.com/full/2076350.jpg"alt="image"/>
             </div>
-            <div class="simple-card-content padd">
+
+            <div class="simpleCard__content padd">
                 <h2>Mr.Bean says Hi 👋</h2>
                 <h4>An Animated Series</h4>
             </div>
-            <p class="simple-card-description padd"> Love for Mr.Bean never ends! All time favorite ❤️</p>
-            <div class="simple-card-footer footer padd">
-                <button class="button">Read</button>
-                <button class="button">Bookmark</button>
-                <i class="fa fa-heart" aria-hidden="true"></i>
-          <i class="fa fa-share-alt" aria-hidden="true"></i>
-          <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+            <p class="simpleCard__description padd"> Love for Mr.Bean never ends! All time favorite ❤️</p>
+            <div class="simpleCard__footer footer padd">
+                <button class="card__button">Read</button>
+                <button class="card__button">Bookmark</button>
+                <i class="fa fa-heart card__icons" aria-hidden="true"></i>
+          <i class="fa fa-share-alt card__icons" aria-hidden="true"></i>
+          <i class="fa fa-ellipsis-v card__icons" aria-hidden="true"></i>
             </div>
         </div>
-<!-- card 2 -->
-<div class="card">
-    <div class="icons-card-img">
-    <img class="image" src="https://wallpaperaccess.com/full/2076350.jpg" alt="image"/>
-    </div>
-    <div class="icons-card-content padd">
-        <h2>Mr.Bean says Hi 👋</h2>
-        <h4>An Animated Series</h4>
-    </div>
-    <p class="icons-card-description padd"> Love for Mr.Bean never ends! All time favorite ❤️</p>
-    <div class="icons-card-footer footer padd">
-        <button class="button">Read</button>
-        <button class="button">Bookmark</button>
-        <i class="fa fa-heart" aria-hidden="true"></i>
-  <i class="fa fa-share-alt" aria-hidden="true"></i>
-  <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
-    </div>
-</div>
-
-    
-<!-- card 3 -->
-<div class="card">
-    <div class="buttons-card-img">
-    <img class="image"src="https://wallpaperaccess.com/full/2076350.jpg"alt="image"/>
-    </div>
-    <div class="buttons-card-content padd">
-        <h2>Mr.Bean says Hi 👋</h2>
-        <h4>An Animated Series</h4>
-    </div>
-    <p class="buttons-card-description padd"> Love for Mr.Bean never ends! All time favorite ❤️</p>
-    <div class="buttons-card-footer padd footer">
-        <button class="button">Read</button>
-        <button class="button">Bookmark</button>
-        <i class="fa fa-heart" aria-hidden="true"></i>
-  <i class="fa fa-share-alt" aria-hidden="true"></i>
-  <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
-    </div>
-</div>
-<!-- card 4 -->
-<div class="card">
-    <div class="heading-top-card">
-        <div class="heading-top-card-img">
-        <img class="image"src="https://wallpaperaccess.com/full/2076350.jpg"alt="image"/>
-        </div>
-        <div class="heading-top-card-content padd">
-            <h2>Mr.Bean says Hi 👋</h2>
-            <h4>An Animated Series</h4>
-        </div>
-        <p class="heading-top-card-description padd"> Love for Mr.Bean never ends! All time favorite ❤️</p>
-        <div class="heading-top-card-footer footer padd">
-            <button class="button">Read</button>
-            <button class="button">Bookmark</button>
-            <i class="fa fa-heart" aria-hidden="true"></i>
-      <i class="fa fa-share-alt" aria-hidden="true"></i>
-      <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
-        </div>
-    </div>
-</div>
 <!-- //card 5 -->
-<div class="card text-overlay-card">
-    <div class="text-overlay-card-img">
-        <img class="image"src="https://wallpaperaccess.com/full/2076350.jpg" alt="image" />
+<h2 class="heading">Text Overlay</h2>
+<div class="card textOverlay__card">
+    <div class="textOverlayCard__img">
+        <img class="cardImage"src="https://wallpaperaccess.com/full/2076350.jpg" alt="image" />
     </div>
 
-    <div class="text-overlay-card-content padd">
+    <div class="textOverlayCard__content padd">
       <h2>Mr.Bean says Hi 👋</h2>
       <h4>An Animated series </h4>
     </div>
 
-    <p class="text-overlay-card-description padd">
+    <p class="textOverlayCard__description padd">
       Love for Mr.Bean never ends! All time favorite ❤️</p>
     </p>
 
-    <div class="text-overlay-card-footer padd footer">
-      <button class="button">Read</button>
-      <button class="button">Bookmark</button>
-      <i class="fa fa-heart" aria-hidden="true"></i>
-      <i class="fa fa-share-alt" aria-hidden="true"></i>
-      <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+    <div class="textOverlayCard__footer padd footer">
+      <button class="card__button">Read</button>
+      <button class="card__button">Bookmark</button>
+      <i class="fa fa-heart card__icons" aria-hidden="true"></i>
+      <i class="fa fa-share-alt card__icons" aria-hidden="true"></i>
+      <i class="fa fa-ellipsis-v card__icons" aria-hidden="true"></i>
     </div>
   </div>
 
 <!-- card 6 -->
-<div class="card horizontal-card">
-    <div class="horizontal-card-img">
-        <img class="image"src="https://wallpaperaccess.com/full/2076350.jpg" alt="image" />
+<h2 class="heading">Horizontal Card</h2>
+<div class="card horizontal__card">
+    <div class="horizontalCard__img">
+        <img class="cardImage"src="https://wallpaperaccess.com/full/2076350.jpg" alt="image" />
     </div>
 
-    <div class="horizontal-card-content padd">
+    <div class="horizontalCard__content padd">
       <h2>Mr.Bean says Hi 👋</h2>
       <h4>An Animated series </h4>
     </div>
 
-    <p class="horizontal-card-description padd">
+    <p class="horizontalCard__description padd">
       Love for Mr.Bean never ends! All time favorite ❤️</p>
     </p>
 
-    <div class="horizontal-card-footer padd footer">
-      <button class="button">Read</button>
-      <button class="button">Bookmark</button>
-      <i class="fa fa-heart" aria-hidden="true"></i>
-      <i class="fa fa-share-alt" aria-hidden="true"></i>
-      <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+    <div class="horizontalCard__footer padd footer">
+      <button class="card__button">Read</button>
+      <button class="card__button">Bookmark</button>
+      <i class="fa fa-heart card__icons" aria-hidden="true"></i>
+      <i class="fa fa-share-alt card__icons" aria-hidden="true"></i>
+      <i class="fa fa-ellipsis-v card__icons" aria-hidden="true"></i>
     </div>
   </div>
 
 <!-- box-shadow card -->
-  <div class="card card-boxshadow padd">
-    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 
+<h2 class="heading">Box-shadow card</h2>
+  <div class="card boxshadow__card padd">
+    <p class="boxshadowCard__content">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 
       the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
        and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
 </div>
 
 
 <!-- dismiss -->
-<div class="card card-dismiss padd">
+<h2 class="heading">Dismiss Card</h2>
+<div class="card dismiss__card padd">
   <h2>This is the Heading</h2>
-  <i class="far fa-times-circle"></i>
+  <i class="far fa-times-circle card__dismissIcon"></i>
   <h3>-This is sub-heading</h3>
-  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages
+  <p class="dismissCard__content">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages
     , and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.<p>
 </div>
 
@@ -155,6 +127,9 @@
 
         </div>
     
-    
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/highlight.min.js"></script>
+        <script>
+          hljs.highlightAll();
+        </script>
 </body>
 </html>

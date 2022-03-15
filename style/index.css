@@ -1,3 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Dancing+Script:wght@700&family=Festive&family=Poppins:ital,wght@1,300&family=Roboto+Condensed:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Dancing+Script:wght@700&family=Festive&family=Fira+Sans+Condensed:ital@1&family=Permanent+Marker&family=Poppins:ital,wght@1,300&family=Roboto+Condensed:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+
 
 @import "./variable.css";
 @import "../components/button/button.css";
@@ -9,3 +13,9 @@
 @import "../components/images/images.css";
 @import "../components/list/list.css";
 @import "../components/text-utilities/text-utilities.css";
+@import "../style/landing-page.css";
+@import "../style/introduction.css";
+@import "../styles.css";
+
+    
+    

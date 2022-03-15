@@ -1,38 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>button</title>
-    <link rel="stylesheet" href="../../styles.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="/style/index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/styles/atom-one-dark.min.css"
+    integrity="sha512-Fcqyubi5qOvl+yCwSJ+r7lli+CO1eHXMaugsZrnxuU4DVpLYWXTVoHy55+mCb4VZpMgy7PBhV7IiymC0yu9tkQ=="
+    crossorigin="anonymous" />
 </head>
+
 <body>
-    <div class="btn-container">
+  <div class="landing-page-name name">ADORE-UI</div>
+  <div class="pages-container">
+    <div class="side-bar">
+      <div class="component component-heading">Get Started</div>
+      <div class="component"><a href="/docs/getting-started/introduction.html">Installation</a></div>
+      <div class="component component-heading">Components</div>
+      <div class="component"> <a href="/components/alert/alert.html">Alert</a></div>
+      <div class="component"><a href="/components/avatar/avatar.html">Avatar</a></div>
+      <div class="component"><a href="/components/badge/badge.html">Badge</a></div>
+      <div class="component"><a href="/components/button/button.html">Button</a></div>
+      <div class="component"><a href="/components/cards/cards.html">Card</a></div>
+      <div class="component"><a href="/components/images/images.html">Image</a></div>
+      <div class="component"><a href="/components/input/input.html">Input</a></div>
+      <div class="component"><a href="/components/list/list.html">List</a></div>
+
+
+    </div>
+    <div class="main-content">
+      <h3 class="heading">Button</h3>
+      <p class="content">Buttons are used for any sought of action</p>
+      <h3 class="heading">Simple Buttons</h3>
+
+    <div class="btn__container">
         <div class="buttons">
-          <button class="primary-btn btn">primary-btn</button>
-          <button class="secondary-btn btn">secondary-btn</button>
-       <button class="primary-btn-hover btn">primary-btn-hover</button>
-          <button class="secondary-btn-hover btn">secondary-btn-hover</button>
+          <button class="btn btn--primary">primary-btn</button>
+          <button class="btn btn--secondary">secondary-btn</button>
+          </div>
+          <pre>
+            <code class="html">
+   &lt;button class="btn btn--primary"&gt;primary-btn&lt;/button&gt;
+   &lt;button class="btn btn--secondary"&gt;secondary-btn&lt;/button&gt;
+            </code>
+          </pre>
+          <h3 class="heading">Hover Buttons</h3>
+
+          <div class="buttons">
+       <button class="btn btn--primaryHover">primary-btn-hover</button>
+          <button class="btn btn--secondaryHover">secondary-btn-hover</button>
+          </div>
+          <pre>
+            <code class="html">
+    &lt;button class="btn btn--primaryHover"&gt;primary-btn-hover&lt;/button&gt;
+    &lt;button class="btn btn--secondaryHover"&gt;secondary-btn-hover&lt;/button&gt;
+            </code>
+          </pre>
+          <h3 class="heading">Outlined Buttons</h3>
+
+          <div class="buttons">
         <button class="btn outlined">primary-btn</button>
           <button class="btn outlined">secondary-btn</button>
-          <button class="success-btn btn">Success</button>
-            <button class="error-btn btn">Error</button>
-          <button class="outlined-success btn">success</button>
-            <button class="outlined-error btn">Error</button>
-          <button class="disabled btn">Disabled</button>
-          <button class="send-btn btn">Send <i class="fas fa-paper-plane"></i></button>
-           <button class="delete-btn btn">Delete <i class="fas fa-trash"></i></button>
-           <a class="link-btn btn"href="www.google.com" target="_blank">This is a link</a>
-      
-          <button class="floating-btn btn">+</button>
-           <button class="floating-btn btn">></button>
-           <button class="floating-btn btn"><</button>
-             <button class="floating-btn btn camera"><i class="fas fa-camera"></i>
-               <button class="floating-btn btn edit"><i class="fas fa-pen"></i>
+          <button class="btn btn--outlinedSuccess">success</button>
+            <button class="btn btn--outlinedError">Error</button>
+          </div>
+          <pre>
+            <code class="html">
+    &lt;button class="btn outlined"&gt;primary-btn&lt;/button&gt;
+    &lt;button class="btn outlined"&gt;secondary-btn&lt;/button&gt;
+    &lt;button class="btn btn--outlinedSuccess"&gt;success&lt;/button&gt;
+    &lt;button class="btn btn--outlinedError"&gt;Error&lt;/button&gt;
+            </code>
+          </pre>
+          <h3 class="heading">Action Buttons</h3>
+
+          <div class="buttons">
+          <button class="btn btn--success">Success</button>
+            <button class="btn btn--error">Error</button>
+          <button class="btn btn--disabled">Disabled</button>
+          </div>
+          <pre>
+            <code class="html">
+              &lt;button class="btn btn--success"&gt;Success&Lt;/button&gt;
+            &lt;button class="btn btn--error"&gt;Error&lt;/button&gt;
+          &lt;button class="btn btn--disabled"&gt;Disabled&lt;/button&gt;
+            </code>
+          </pre>
+          <h3 class="heading">Buttons with Icons</h3>
+
+          <div class="buttons">
+          <button class="btn btn--send">Send <i class="fas fa-paper-plane btn--icon"></i></button>
+           <button class="btn btn--delete">Delete <i class="fas fa-trash btn-icon"></i></button>
+           <button class="btn btn--floating"><i class="fas fa-camera camera--btn"></i></button>
+               <button class="btn btn--floating"><i class="fas fa-pen edit--btn"></i>
              </button>
-        </div>
+          </div>
+          <pre>
+            <code class="html">
+    &lt;button class="btn btn--send"&gt;Send &lt;i class="fas fa-paper-plane btn--icon"&gt;&lt;/i&gt;&lt;/button&gt;
+    &lt;button class="btn btn--delete"&gt;Delete &lt;i class="fas fa-trash btn-icon"&gt;&lt;/i&gt;&lt;/button&gt;
+    &lt;button class="btn btn--floating"&gt;&lt;i class="fas fa-camera camera--btn"&gt;&lt;/i&gt;&lt;/button&gt;
+    &lt;button class="btn btn--floating"&gt;&lt;i class="fas fa-pen edit--btn"&gt;&lt;/i&gt;
+            </code>
+          </pre>
+          <h3 class="heading">Link Button</h3>
+
+          <div class="buttons">
+           <a class="btn btn--link"href="www.google.com" target="_blank">This is a link</a>
+          </div>
+
+          <pre>
+            <code class="html">
+    &lt;a class="btn btn--link"href="www.google.com" target="_blank"&gt;This is a link&lt;a&gt;
+            </code>
+          </pre>
+          <h3 class="heading">Floating Buttons</h3>
+
+      <div class="buttons">
+          <button class="btn btn--floating">+</button>
+           <button class="btn btn--floating">></button>
+           <button class="btn btn--floating"><</button>
       </div>
+      <pre>
+        <code class="html">
+    &lt;button class="btn btn--floating"&gt;+&lt;/button&gt;
+    &lt;button class="btn btn--floating"&gt;>&lt;/button&gt;
+    &lt;button class="btn btn--floating"&gt;<&lt;/button&gt;
+        </code>
+      </pre>
+      
+        </div>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/highlight.min.js"></script>
+        <script>
+          hljs.highlightAll();
+        </script>   
                      
 </body>
 </html>
