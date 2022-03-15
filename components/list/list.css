@@ -1,13 +1,14 @@
-.list-container{
+.list__container{
     font-size:1.25rem;
-    padding-left:3.75rem;
+    padding-left:5rem;
 }
-.ul,.ol{
+
+.list__ul,.list__ol{
 padding-top:1.25rem;
 }
-.ul-square{
+.ul__square{
     list-style-type:square;
 }
-.ul-non-bullet{
+.ul__nonBullet{
     list-style-type: none;
 }

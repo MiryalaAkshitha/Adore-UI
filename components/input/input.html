@@ -1,15 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>input-component</title>
-    <link rel="stylesheet" href="../../styles.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="/style/index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/styles/atom-one-dark.min.css"
+    integrity="sha512-Fcqyubi5qOvl+yCwSJ+r7lli+CO1eHXMaugsZrnxuU4DVpLYWXTVoHy55+mCb4VZpMgy7PBhV7IiymC0yu9tkQ=="
+    crossorigin="anonymous" />
 </head>
+
 <body>
-  <div class="main-input-container">
-    <form class="input-container">
+  <div class="landing-page-name name">ADORE-UI</div>
+  <div class="pages-container">
+    <div class="side-bar">
+      <div class="component component-heading">Get Started</div>
+      <div class="component"><a href="/docs/getting-started/introduction.html">Installation</a></div>
+      <div class="component component-heading">Components</div>
+      <div class="component"> <a href="/components/alert/alert.html">Alert</a></div>
+      <div class="component"><a href="/components/avatar/avatar.html">Avatar</a></div>
+      <div class="component"><a href="/components/badge/badge.html">Badge</a></div>
+      <div class="component"><a href="/components/button/button.html">Button</a></div>
+      <div class="component"><a href="/components/cards/cards.html">Card</a></div>
+      <div class="component"><a href="/components/images/images.html">Image</a></div>
+      <div class="component"><a href="/components/input/input.html">Input</a></div>
+      <div class="component"><a href="/components/list/list.html">List</a></div>
+
+
+    </div>
+    <div class="main-content">
+      <h2 class="heading">Input</h2>
+      <p class="content">Input is used in taking data from the user</p>
+      <h3 class="heading">Simple Input</h3>
+  <div class="main--inputContainer">
+    <form class="inputContainer">
         <div>
           <label>Username * </label>
           <input
@@ -19,6 +45,18 @@
             required
           />
         </div>
+        <pre>
+          <code class="html">
+        &lt;label&gt;Username * &lt;/label&gt;
+          &lt;input
+            type="text"
+            placeholder="Enter Username"
+            class="input"
+            required
+          /&gt;
+          </code>
+        </pre>
+        <h3 class="heading">Incorrect Input</h3>
         <div>
           <label class="incorrect">Password * </label>
           <input
@@ -27,13 +65,26 @@
             class="input incorrect-password"
             required
           />
-          <div class="incorrect">
-            <p class="incorrect">Incorrect password</p>
-          </div>
+          <p class="incorrect">Incorrect password</p>
+          <pre>
+            <code class="html">
+          &lt;label class="incorrect"&gt;Password * &lt;/label&gt;
+          &lt;input
+            type="password"
+            placeholder="Enter Password"
+            class="input incorrect-password"
+            required
+          /&gt;
+            &lt;p class="incorrect"&gt;Incorrect password&lt;/p&gt;
+            </code>
+          </pre>
+          
+
         </div>
       </form>
   
       <!-- Radio -->
+      <h3 class="heading">Radio Button</h3>
       <div class="radio-container">
         <div>
           <input type="radio" name="radio" id="checked" />
@@ -50,8 +101,20 @@
           <label for="unchecked">Disabled</label>
         </div>
       </div>
+        <pre>
+          <code class="html">
+            &lt;input type="radio" name="radio" id="checked" /&gt;
+          &lt;label for="checked"&gt;male&lt;/label&gt;
+          &lt;input type="radio" name="radio" id="unchecked" /&gt;
+          &lt;label for="unchecked"&gt;female&lt;/label&gt;
+          &lt;input type="radio" name="radio" id="unchecked" disabled /&gt;
+          &lt;label for="unchecked"&gt;Disabled&lt;/label&gt;
+</code>
+        </pre>
+    
   
       <!-- CheckBox -->
+<h3 class="heading">checkbox</h3>
       <div class="checkbox-container">
         <div>
           <input type="checkbox" id="checkbox1" />
@@ -68,6 +131,21 @@
           <label for="checkbox-disabled">Disabled</label>
         </div>
       </div>
+        <pre>
+          <code class="html">
+          &lt;input type="checkbox" id="checkbox1" /&gt;
+          &lt;label for="checkbox1"&gt;Check box 1&lt;/label&gt;
+          &lt;input type="checkbox" id="checkbox2" /&gt;
+          &lt;label for="checkbox2"&gt;Check box 2&lt;/label&gt;
+          &lt;input type="checkbox" id="checkbox-disabled" disabled /&gt;
+          &lt;label for="checkbox-disabled"&gt;Disabled&lt;/label&gt;
+          </code>
+        </pre>
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/highlight.min.js"></script>
+  <script>
+    hljs.highlightAll();
+  </script>
   </div>
 </body>
 </html>

@@ -1,25 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="../../styles.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="/style/index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/styles/atom-one-dark.min.css"
+    integrity="sha512-Fcqyubi5qOvl+yCwSJ+r7lli+CO1eHXMaugsZrnxuU4DVpLYWXTVoHy55+mCb4VZpMgy7PBhV7IiymC0yu9tkQ=="
+    crossorigin="anonymous" />
 </head>
+
 <body>
-    <div class="alert-container">
+  <div class="landing-page-name name">ADORE-UI</div>
+  <div class="pages-container">
+    <div class="side-bar">
+      <div class="component component-heading">Get Started</div>
+      <div class="component"><a href="/docs/getting-started/introduction.html">Installation</a></div>
+      <div class="component component-heading">Components</div>
+      <div class="component"> <a href="/components/alert/alert.html">Alert</a></div>
+      <div class="component"><a href="/components/avatar/avatar.html">Avatar</a></div>
+      <div class="component"><a href="/components/badge/badge.html">Badge</a></div>
+      <div class="component"><a href="/components/button/button.html">Button</a></div>
+      <div class="component"><a href="/components/cards/cards.html">Card</a></div>
+      <div class="component"><a href="/components/images/images.html">Image</a></div>
+      <div class="component"><a href="/components/input/input.html">Input</a></div>
+      <div class="component"><a href="/components/list/list.html">List</a></div>
+
+    </div>
+    <div class="main-content">
+      <h3 class="heading">Alert</h3>
+      <p class="content">An alert displays a short, important message in a way that attracts the user's attention
+        without interrupting
+        the user's task.</p>
+      <h3 class="heading">Filled Alert</h3>
+      <div class="alert__container">
         <div class="alerts">
-          <div class="alert success-alert"><i class="far fa-check-circle icon"></i>   This   is    a success alert!</div>
-          <div class="alert warning-alert"><i class="fas fa-exclamation-triangle icon"></i></i>This a warning alert!</div>
-          <div class="alert info-alert"><i class="fas fa-info-circle icon"></i>This is a info alert!</div>
-          <div class="alert error-alert"><i class="far fa-times-circle icon"></i> This is a error alert! </div>
-        
-        <div class="alert outlined-success-alert outlined"><i class="far fa-check-circle icon"></i>   This   is    a success alert!</div>
-          <div class="alert outlined-warning-alert outlined"><i class="fas fa-exclamation-triangle icon"></i></i>This a warning alert!</div>
-          <div class="alert outlined-info-alert outlined"><i class="fas fa-info-circle icon"></i>This is a info alert!</div>
-          <div class="alert outlined-error-alert outlined"><i class="far fa-times icon"></i> This is a error alert! </div>
+          <div class="alert alert--success"><i class="far fa-check-circle alert__icon"></i> This is a success
+            alert!
+          </div>
+          <div class="alert alert--warning"><i class="fas fa-exclamation-triangle alert__icon"></i></i>This a
+            warning
+            alert!</div>
+          <div class="alert alert--info"><i class="fas fa-info-circle alert__icon"></i>This is a info alert!
+          </div>
+          <div class="alert alert--error"><i class="far fa-times-circle alert__icon"></i> This is a error
+            alert! </div>
         </div>
+        <pre>
+                  <code class="html">
+    &lt;div class="alert alert--success"&gt;&lt;i class="far fa-check-circle alert__icon"&gt;&lt;/i&gt;This is a success
+    alert!
+    &lt;/div&gt;
+    &lt;div class="alert alert--warning"&gt;&lt;i class="fas fa-exclamation-triangle alert__icon"&gt;&lt;/i&gt;&lt;/i&gt;This a
+    warning
+    alert!&lt;/div&gt;
+    &lt;div class="alert alert--info"&gt;&lt;i class="fas fa-info-circle alert__icon"&gt;&lt;/i&gt;This is a info alert!
+    &lt;/div&gt;
+    &lt;div class="alert alert--error"&gt;&lt;i class="far fa-times-circle alert__icon"&gt;&lt;/i&gt; This is a error
+    alert! &lt;/div&gt;
+                  </code>
+              </pre>
       </div>
+      <h3 class="heading">simple alert</h3>
+      <div class="alert__container">
+        <div class="alerts">
+          <div class="alert alert--successOutlined alert--outlined"><i class="far fa-check-circle alert__icon"></i> This
+            is a success alert!</div>
+          <div class="alert alert--warningOutlined alert--outlined"><i
+              class="fas fa-exclamation-triangle alert__icon"></i></i>This a warning alert!</div>
+          <div class="alert alert--infoOutlined alert--outlined"><i class="fas fa-info-circle alert__icon"></i>This is a
+            info alert!</div>
+          <div class="alert alert--errorOutlined alert--outlined"><i class="far fa-times-circle alert__icon"></i> This
+            is a error alert! </div>
+            
+        </div>
+        <pre>
+<code class="html">
+    &lt;div class="alert alert--successOutlined alert--outlined"&gt;&lt;i
+    class="far fa-check-circle alert__icon"&gt;&lt;/i&gt; This
+    is a success alert!&lt;/div&gt;
+    &lt;div class="alert alert--warningOutlined alert--outlined"&gt;&lt;i
+    class="fas fa-exclamation-triangle alert__icon"&gt;&lt;/i&gt;&lt;/i&gt;This a warning alert!&lt;/div&gt;
+    &lt;div class="alert alert--infoOutlined alert--outlined"&gt;&lt;i
+    class="fas fa-info-circle alert__icon"></i>This is a
+    info alert!&lt;/div&gt;
+    &lt;div class="alert alert--errorOutlined alert--outlined"&gt;&lt;i
+    class="far fa-times-circle alert__icon"&gt;&lt;/i&gt;This
+    is a error alert! &lt;/div&gt;
+                     
+                         
+                  </code></pre>
+      </div>
+    </div>
+
+  </div>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/highlight.min.js"></script>
+  <script>
+    hljs.highlightAll();
+  </script>
 </body>
+
 </html>

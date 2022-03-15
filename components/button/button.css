@@ -1,4 +1,4 @@
-.btn-container{
+.btn--container{
     display:flex;
     justify-content:center;
     align-items:center;
@@ -24,46 +24,46 @@
   
  
   }
-  .primary-btn, .primary-btn-hover{
+  .btn--primary, .btn--primaryHover{
     background-color:var(--primary-color);
   }
-  .secondary-btn, .secondary-btn-hover{
+  .btn--secondary, .btn--secondaryHover{
     background-color:var(--secondary-color);
   }
-  .send-btn, .delete-btn{
+  .btn--send, .btn--delete{
     background-color:var(--primary-color);
   }
-  .primary-btn-hover:hover{
+  .btn--primaryHover:hover{
     opacity:0.9;
   }
-  .secondary-btn-hover:hover{
+  .btn--secondaryHover:hover{
     opacity:0.9;
   }
-  .success-btn{
+  .btn--success{
     background-color:var(--success-color);
   }
-  .error-btn{
+  .btn--error{
     background-color:var(--error-color);
   }
   .outlined{
     color:var(--secondary-color);
-    border:2px solid var(--secondary-color);
+    border:1px solid var(--primary-color);
    
   }
-  .outlined-success{
+  .btn--outlinedSuccess{
     color:var(--success-color);
     border:2px solid var(--success-color);
   }
-  .outlined-error{
+  .btn--outlinedError{
     color:var(--error-color);
     border:2px solid var(--error-color);
   }
-  .disabled{
+  .btn--disabled{
     color:var(--disabled-color);
     border:2px solid ;
     cursor:not-allowed;
   }
-  .floating-btn{
+  .btn--floating{
       display:grid;
       place-content:center;
 border-radius:50%;
@@ -74,12 +74,12 @@ border-radius:50%;
     font-size:25px;
     
   }
-  .camera, .edit{
+  .camera--btn, .edit--btn{
     border:none;
     color:var(--secondary-color);
   
   }
-  .link-btn{
+  .btn--link{
     background-color:var(--secondary-color);
     padding: 14px 25px;
     text-decoration:underline;

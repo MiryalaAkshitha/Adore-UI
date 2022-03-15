@@ -1,39 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="../../styles.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="/style/index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/styles/atom-one-dark.min.css"
+    integrity="sha512-Fcqyubi5qOvl+yCwSJ+r7lli+CO1eHXMaugsZrnxuU4DVpLYWXTVoHy55+mCb4VZpMgy7PBhV7IiymC0yu9tkQ=="
+    crossorigin="anonymous" />
 </head>
-<body>
-    <div class="badge-container">
+
+
+  <body>
+    <div class="landing-page-name name">ADORE-UI</div>
+    <div class="pages-container">
+      <div class="side-bar">
+        <div class="component component-heading">Get Started</div>
+        <div class="component"><a href="/docs/getting-started/introduction.html">Installation</a></div>
+        <div class="component component-heading">Components</div>
+        <div class="component"> <a href="/components/alert/alert.html">Alert</a></div>
+        <div class="component"><a href="/components/avatar/avatar.html">Avatar</a></div>
+        <div class="component"><a href="/components/badge/badge.html">Badge</a></div>
+        <div class="component"><a href="/components/button/button.html">Button</a></div>
+        <div class="component"><a href="/components/cards/cards.html">Card</a></div>
+        <div class="component"><a href="/components/images/images.html">Image</a></div>
+        <div class="component"><a href="/components/input/input.html">Input</a></div>
+        <div class="component"><a href="/components/list/list.html">List</a></div>
+
+  
+      </div>
+      <div class="main-content">
+        <h3 class="heading">Badge</h3>
+        <p class="content">Badges are used to show notifications</p>
+        <h3 class="heading">simple badge</h3>
+    <div class="badge__container">
         <div class="badge">
-          <div class="badge_one badge_icon">
+          <div class="badge__cart badge__icon">
             <i class="fas fa-shopping-cart fa-2x"></i>
-            <span class="round">88</span>
+            <span class="badge__notification">88</span>
           </div>
-      
-          <div class="badge_two badge_icon">
+          <div class="badge">
+          <div class="badge__snapchat badge__icon">
             <i class="fab fa-snapchat fa-2x"></i>
-            <span class="round round-dot"></span>
+            <span class="badge__notification dot--notification"></span>
           </div>
-      
-          <div class="badge_three badge_icon">
+          </div>
+      <div class="badge">
+    <div class="badge__twitter badge__icon">
             <i class="fab fa-twitter fa-2x"></i>
-            <span class="round">55</span>
+            <span class="badge__notification">55</span>
           </div>
-      
-          <div class="badge_four badge_icon">
+      </div>
+      <div class="badge">
+          <div class="badge__bell badge__icon">
             <i class="far fa-bell fa-2x"></i>
-            <span class="round">+9</span>
-          </div>
-          <div class="badge_five badge_icon">
-            <i class="far fa-envelope fa-2x"></i>
-            <span class="round">9</span>
+            <span class="badge__notification">+9</span>
           </div>
         </div>
-      </div>
+        </div>
+    </div>
+          <pre>
+            <code class="html">
+              &lt;div class="badge__cart badge__icon"&gt;
+                &lt;i class="fas fa-shopping-cart fa-2x"&gt;&lt;/i&gt;
+                &lt;span class="badge__notification"&gt;88&lt;/span&gt;
+              &lt;/div&gt;
+              &lt;div class="badge__snapchat badge__icon"&gt;
+                &lt;i class="fab fa-snapchat fa-2x"&gt;&lt;/i&gt;
+                &lt;span class="badge__notification dot--notification"7gt;&lt;/span&gt;
+              &lt;/div&gt;
+              &lt;div class="badge__twitter badge__icon"&gt;
+                &lt;i class="fab fa-twitter fa-2x"&gt;&lt;/i&gt;
+                &lt;span class="badge__notification"&gt;55&lt;/span&gt;
+              &lt;/div&gt;
+              &lt;div class="badge__bell badge__icon"&gt;
+                &lt;i class="far fa-bell fa-2x"&gt;&lt;/i&gt;
+                &lt;span class="badge__notification"&gt;+9&lt;/span&gt;
+              &lt;/div&gt;
+            </code>
+          </pre>
+          <h3 class="heading">simple badge</h3>
+      
+<div class="badge__onAvatar--container">
+  <div class="badge__onAvatar">
+    
+    <img class="badge__onAvatar__img"
+      src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+      alt="img-avatar-badge" />
+    <span class="status status-online"></span>
+
+  </div>
+  <div class="badge__onAvatar">
+    <img class="badge__onAvatar__img"
+      src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+      alt="img-avatar-badge" />
+    <span class="status status-dd"></span>
+
+  </div>
+  <div class="badge__onAvatar">
+    <img class="badge__onAvatar__img"
+      src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+      alt="img-avatar-badge" />
+    <span class="status status-idle"></span>
+
+  </div>
+</div>
+  <pre>
+    <code class="html">
+      &lt;img class="badge__onAvatar__img"
+      src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+      alt="img-avatar-badge" /&gt;
+    &lt;span class="status status-online"&gt;&lt;/span&gt;
+      &lt;img class="badge__onAvatar__img"
+        src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+        alt="img-avatar-badge" /&gt;
+      &lt;span class="status status-dd"&gt;&lt;/span&gt;
+      &lt;img class="badge__onAvatar__img"
+      src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+      alt="img-avatar-badge" /&gt;
+    &lt;span class="status status-idle"&gt;&lt;/span&gt;
+
+    </code>
+  </pre>
+
+
+
+
+
+</div>
+        
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/highlight.min.js"></script>
+  <script>
+    hljs.highlightAll();
+  </script>
 </body>
 </html>
