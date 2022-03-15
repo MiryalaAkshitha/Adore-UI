@@ -14,11 +14,13 @@
   border-radius: 0.5rem;
   color: var(--text-color);
 }
-.icon {
+.alert{
   padding-right: 0.625rem;
+  /* color:var(--text-color); */
 }
 .success-alert {
   background-color: var(--success-color);
+
 }
 .warning-alert {
   background-color: var(--warning-color);
