@@ -1,0 +1,7 @@
+.rating-box{
+    color:var(--warning-color);
+}
+
+.rating-item{
+    cursor: pointer;
+}
