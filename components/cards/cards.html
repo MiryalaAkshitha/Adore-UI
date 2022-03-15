@@ -18,6 +18,8 @@
     <div class="side-bar">
       <div class="component component-heading">Get Started</div>
       <div class="component"><a href="/docs/getting-started/introduction.html">Installation</a></div>
+      <div class="component"><a href="/components/text-utilities/text-utilities.html">Typography</a></div>
+
       <div class="component component-heading">Components</div>
       <div class="component"> <a href="/components/alert/alert.html">Alert</a></div>
       <div class="component"><a href="/components/avatar/avatar.html">Avatar</a></div>
@@ -26,110 +28,299 @@
       <div class="component"><a href="/components/cards/cards.html">Card</a></div>
       <div class="component"><a href="/components/images/images.html">Image</a></div>
       <div class="component"><a href="/components/input/input.html">Input</a></div>
+      <div class="component"><a href="/components/list/list.html">List</a></div>
+
 
     </div>
     <div class="main-content">
       <h2 class="heading">Card</h2>
-      <p class="content">Cards are used for various purposes</p>
-    <!-- <div class=""></div> -->
-      <h2 class="heading"> Simple Card</h2>
-    <div class="card__container">
-        <div class="card">
-            <div class="simpleCard__img">
-            <img class="cardImage"src="https://wallpaperaccess.com/full/2076350.jpg"alt="image"/>
+      <p class="content">Cards are used to give detailed Information.Cards supoort multiple actions.</p>
+      <!-- <div class=""></div> -->
+      <!-- <div class="card__container"> -->
+      <div class="">
+        <h2 class="heading">Badge on Card</h2>
+        <div class="card-ecom card">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSX6KWJzPC5RQYXeLxXgjjY6UiI-Mpv7IluwDgiP0yh4vgSHzJc8_-CipG1RyX6WgBrBrk&usqp=CAU"
+            alt="iPhone Image" class="card-img card-img-ecom">
+          <div class="card-ecom-badge">Trending!!</div>
+          <div class="card-ecom-like-icon"><i class="fal fa-heart"></i></div>
+          <div class="card-header">
+            <div class="card-sub-title">Apple</div>
+            <div class="card-title">Iphone Xs Max(8+512)</div>
+            <div class="card-ecom-price">
+              <span class="card-ecom-price-current">Rs.98700</span>
+              <span class="card-ecom-price-old">Rs.107900</span>
             </div>
+          </div>
+          <div class="card-footer">
+            <div class="card-btn-box">
+              <button class="ecom-btn primary-color">ADD TO CART</button>
+            </div>
+          </div>
+        </div>
+        <pre>
+          <code class="html">
+            &lt;div class="card-ecom card"&gt;
+          &lt;img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSX6KWJzPC5RQYXeLxXgjjY6UiI-Mpv7IluwDgiP0yh4vgSHzJc8_-CipG1RyX6WgBrBrk&usqp=CAU"
+            alt="iPhone Image" class="card-img card-img-ecom"&gt;
+          &lt;div class="card-ecom-badge"&gt;Trending!!&lt;/div&gt;
+          &lt;div class="card-ecom-like-icon"&gt;&lt;i class="fal fa-heart"&gt;&lt;/i&gt;&lt;/div&gt;
+          &lt;div class="card-header"&gt;
+            &lt;div class="card-sub-title"&gt;Apple&lt;/div&gt;
+            &lt;div class="card-title"&gt;Iphone Xs Max(8+512)&lt;/div&gt;
+            &lt;div class="card-ecom-price"&gt;
+              &lt;span class="card-ecom-price-current"&gt;Rs.98700&lt;/span&gt;
+              &lt;span class="card-ecom-price-old"&gt;Rs.107900&lt;/span&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+          &lt;div class="card-footer"&gt;
+            &lt;div class="card-btn-box"&gt;
+              &lt;button class="ecom-btn primary-color"&gt;ADD TO CART&lt;/button&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+          </code>
+        </pre>
+        <!-- highlight  -->
+        <!-- sold out  -->
+        <div class="">
+          <h2 class="heading">Box Shadow</h2>
+          <div class="card-ecom card card-ecom-shadow">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSX6KWJzPC5RQYXeLxXgjjY6UiI-Mpv7IluwDgiP0yh4vgSHzJc8_-CipG1RyX6WgBrBrk&usqp=CAU"
+              alt="iPhone Image" class="card-img card-img-ecom">
+            <div class="card-ecom-badge">Trending!!</div>
+            <div class="card-ecom-like-icon"><i class="fal fa-heart"></i></div>
+            <div class="card-header">
+              <div class="card-sub-title">Apple</div>
+              <div class="card-title">Iphone Xs Max(8+512)</div>
+              <div class="card-ecom-price">
+                <span class="card-ecom-price-current">Rs.98700</span>
+                <span class="card-ecom-price-old">Rs.107900</span>
+              </div>
+            </div>
+            <div class="card-footer">
+              <div class="card-btn-box">
+                <button class="ecom-btn primary-color">ADD TO CART</button>
+              </div>
+            </div>
+          </div>
+          <!-- highlight  -->
+          <pre>
+            <code class="html">
+          &lt;div class="card-ecom card card-ecom-shadow"&gt;
+          &lt;img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSX6KWJzPC5RQYXeLxXgjjY6UiI-Mpv7IluwDgiP0yh4vgSHzJc8_-CipG1RyX6WgBrBrk&usqp=CAU"
+          alt="iPhone Image" class="card-img card-img-ecom"&gt;
+          &lt;div class="card-ecom-badge"&gt;Trending!!&lt;/div&gt;
+          &lt;div class="card-ecom-like-icon"&gt;&lt;i class="fal fa-heart"&gt;&lt;/i&gt;&lt;/div&gt;
+          &lt;div class="card-header"&gt;
+          &lt;div class="card-sub-title"&gt;Apple&lt;/div&gt;
+          &lt;div class="card-title"&lt;Iphone Xs Max(8+512)&lt;/div&gt;
+          &lt;div class="card-ecom-price"&gt;
+          &lt;span class="card-ecom-price-current"&gt;Rs.98700&lt;/span&gt;
+          &lt;span class="card-ecom-price-old"&gt;Rs.107900&lt;/span&gt;
+          &lt;/div&gt;
+          &lt;/div&gt;
+          &lt;div class="card-footer"&gt;
+          &lt;div class="card-btn-box"&gt;
+          &lt;button class="ecom-btn primary-color"&gt;ADD TO CART&lt;/button&gt;
+          &lt;/div&gt;
+          &lt;/div&gt;
+          &lt;/div&gt;
+            </code>
+          </pre>
 
-            <div class="simpleCard__content padd">
+          <!-- //card 5 -->
+          <div class="">
+            <h2 class="heading">Text Overlay</h2>
+            <div class="card textOverlay__card">
+              <div class="textOverlayCard__img">
+                <img class="cardImage" src="https://wallpaperaccess.com/full/2076350.jpg" alt="image" />
+              </div>
+
+              <div class="textOverlayCard__content padd">
                 <h2>Mr.Bean says Hi 👋</h2>
-                <h4>An Animated Series</h4>
-            </div>
-            <p class="simpleCard__description padd"> Love for Mr.Bean never ends! All time favorite ❤️</p>
-            <div class="simpleCard__footer footer padd">
+                <h4>An Animated series </h4>
+              </div>
+
+              <p class="textOverlayCard__description padd">
+                Love for Mr.Bean never ends! All time favorite ❤️</p>
+              </p>
+
+              <div class="textOverlayCard__footer padd footer">
                 <button class="card__button">Read</button>
                 <button class="card__button">Bookmark</button>
                 <i class="fa fa-heart card__icons" aria-hidden="true"></i>
-          <i class="fa fa-share-alt card__icons" aria-hidden="true"></i>
-          <i class="fa fa-ellipsis-v card__icons" aria-hidden="true"></i>
+                <i class="fa fa-share-alt card__icons" aria-hidden="true"></i>
+                <i class="fa fa-ellipsis-v card__icons" aria-hidden="true"></i>
+              </div>
             </div>
-        </div>
-<!-- //card 5 -->
-<h2 class="heading">Text Overlay</h2>
-<div class="card textOverlay__card">
-    <div class="textOverlayCard__img">
-        <img class="cardImage"src="https://wallpaperaccess.com/full/2076350.jpg" alt="image" />
-    </div>
+          </div>
 
-    <div class="textOverlayCard__content padd">
-      <h2>Mr.Bean says Hi 👋</h2>
-      <h4>An Animated series </h4>
-    </div>
+          <!-- highlight  -->
+          <pre>
+            <code class="html">
+          &lt;div class="card textOverlay__card"&gt;
+          &lt;div class="textOverlayCard__img"&gt;
+          &lt;img class="cardImage" src="https://wallpaperaccess.com/full/2076350.jpg" alt="image" /&gt;
+          &lt;/div&gt;
 
-    <p class="textOverlayCard__description padd">
-      Love for Mr.Bean never ends! All time favorite ❤️</p>
-    </p>
+          &lt;div class="textOverlayCard__content padd"&gt;
+          &lt;h2&gt;Mr.Bean says Hi 👋&lt;/h2&gt;
+          &lt;h4&gt;An Animated series &lt;/h4&gt;
+          &lt;/div&gt;
 
-    <div class="textOverlayCard__footer padd footer">
-      <button class="card__button">Read</button>
-      <button class="card__button">Bookmark</button>
-      <i class="fa fa-heart card__icons" aria-hidden="true"></i>
-      <i class="fa fa-share-alt card__icons" aria-hidden="true"></i>
-      <i class="fa fa-ellipsis-v card__icons" aria-hidden="true"></i>
-    </div>
-  </div>
+          &lt;p class="textOverlayCard__description padd"&gt;
+          Love for Mr.Bean never ends! All time favorite ❤️&lt;/p&gt;
+          &lt;/p&gt;
 
-<!-- card 6 -->
-<h2 class="heading">Horizontal Card</h2>
-<div class="card horizontal__card">
-    <div class="horizontalCard__img">
-        <img class="cardImage"src="https://wallpaperaccess.com/full/2076350.jpg" alt="image" />
-    </div>
+          &lt;div class="textOverlayCard__footer padd footer"&gt;
+          &lt;button class="card__button"&gt;Read&lt;/button&gt;
+          &lt;button class="card__button"&gt;Bookmark&lt;/button&gt;
+          &lt;i class="fa fa-heart card__icons" aria-hidden="true"&gt;&lt;/i&gt;
+          &lt;i class="fa fa-share-alt card__icons" aria-hidden="true"&gt;&lt;/i&gt;
+          &lt;i class="fa fa-ellipsis-v card__icons" aria-hidden="true"&gt;&lt;/i&gt;
+          &lt;/div&gt;
+          &lt;/div&gt;
+          &lt;/div&gt;
+            </code>
+</pre>
+          <!-- box-shadow card -->
+          <div class="">
+            <h2 class="heading">Text-Only  Box-Shadow</h2>
+            <div class="card boxshadow__card padd">
+              <p class="boxshadowCard__content">Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry.
+                Lorem Ipsum has been the industry's standard dummy text ever since
+                the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                It has
+                survived not only five centuries, but also the leap into electronic typesetting, remaining essentially
+                unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
+                passages,
+                and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem
+                Ipsum.</p>
+            </div>
+          </div>
 
-    <div class="horizontalCard__content padd">
-      <h2>Mr.Bean says Hi 👋</h2>
-      <h4>An Animated series </h4>
-    </div>
+          <!-- highlight  -->
+          <pre>
+            <code class="html">
+          
+          &lt;div class="card boxshadow__card padd"&gt;
+          &lt;p class="boxshadowCard__content"&gt;Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry.
+          Lorem Ipsum has been the industry's standard dummy text ever since
+          the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+          It has
+          survived not only five centuries, but also the leap into electronic typesetting, remaining essentially
+          unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
+          passages,
+          and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem
+          Ipsum.&lt;/p&gt;
+          &lt;/div&gt;
+          </code>
+          </pre>
 
-    <p class="horizontalCard__description padd">
-      Love for Mr.Bean never ends! All time favorite ❤️</p>
-    </p>
+          <!-- dismiss -->
+          <div class="">
+            <h2 class="heading">Dismiss Card</h2>
+            <div class="card dismiss__card padd">
+              <h2>This is the Heading</h2>
+              <i class="far fa-times-circle card__dismissIcon"></i>
+              <h3>-This is sub-heading</h3>
+              <p class="dismissCard__content">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                Lorem
+                Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                galley
+                of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also
+                the
+                leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with
+                the
+                release of Letraset sheets containing Lorem Ipsum passages
+                , and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem
+                Ipsum.
+                <p>
+            </div>
+            <!-- highlight  -->
+            <pre>
+              <code class="html">
+            &lt;div class="card dismiss__card padd"&gt;
+            &lt;h2&gt;This is the Heading&lt;/h2&gt;
+            &lt;i class="far fa-times-circle card__dismissIcon"&gt;&lt;/i&gt;
+            &lt;h3&gt;-This is sub-heading&lt;/h3&gt;
+            &lt;p class="dismissCard__content"&gt;Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry.
+            Lorem
+            Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+            galley
+            of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also
+            the
+            leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with
+            the
+            release of Letraset sheets containing Lorem Ipsum passages
+            , and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem
+            Ipsum.
+            &lt;p&gt;
+            &lt;/div&gt;
+            </code>
+          </pre>
 
-    <div class="horizontalCard__footer padd footer">
-      <button class="card__button">Read</button>
-      <button class="card__button">Bookmark</button>
-      <i class="fa fa-heart card__icons" aria-hidden="true"></i>
-      <i class="fa fa-share-alt card__icons" aria-hidden="true"></i>
-      <i class="fa fa-ellipsis-v card__icons" aria-hidden="true"></i>
-    </div>
-  </div>
+            <h2 class="heading"> Simple Card</h2>
 
-<!-- box-shadow card -->
-<h2 class="heading">Box-shadow card</h2>
-  <div class="card boxshadow__card padd">
-    <p class="boxshadowCard__content">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 
-      the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
-       and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-</div>
+            <div class="card">
+              <div class="simpleCard__img">
+                <img class="cardImage" src="https://wallpaperaccess.com/full/2076350.jpg" alt="image" />
+              </div>
 
+              <div class="simpleCard__content padd">
+                <h2>Mr.Bean says Hi 👋</h2>
+                <h4>An Animated Series</h4>
+              </div>
+              <p class="simpleCard__description padd"> Love for Mr.Bean never ends! All time favorite ❤️</p>
+              <div class="simpleCard__footer footer padd">
+                <button class="card__button">Read</button>
+                <button class="card__button">Bookmark</button>
+                <i class="fa fa-heart card__icons" aria-hidden="true"></i>
+                <i class="fa fa-share-alt card__icons" aria-hidden="true"></i>
+                <i class="fa fa-ellipsis-v card__icons" aria-hidden="true"></i>
+              </div>
+            </div>
+            <!-- highlight  -->
+            <pre>
+              <code class="html">
+              &lt;div class="simpleCard__img"&gt;
+                &lt;img class="cardImage" src="https://wallpaperaccess.com/full/2076350.jpg" alt="image" /&gt;
+              &lt;/div&gt;
 
-<!-- dismiss -->
-<h2 class="heading">Dismiss Card</h2>
-<div class="card dismiss__card padd">
-  <h2>This is the Heading</h2>
-  <i class="far fa-times-circle card__dismissIcon"></i>
-  <h3>-This is sub-heading</h3>
-  <p class="dismissCard__content">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages
-    , and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.<p>
-</div>
+              &lt;div class="simpleCard__content padd"&gt;
+                &lt;h2&gt;Mr.Bean says Hi 👋&lt;/h2&gt;
+                &lt;h4&gt;An Animated Series&lt;/h4&gt;
+              &lt;/div&gt;
+              &lt;p class="simpleCard__description padd"&gt;
+               Love for Mr.Bean never ends! All time favorite ❤️&lt;/p&gt;
+              &lt;div class="simpleCard__footer footer padd"&gt;
+                &lt;button class="card__button"&gt;Read&lt;/button&gt;
+                &lt;button class="card__button"&gt;Bookmark&lt;/button&gt;
+                &lt;i class="fa fa-heart card__icons" aria-hidden="true"&gt;&lt;/i&gt;
+                &lt;i class="fa fa-share-alt card__icons" aria-hidden="true"&gt;&lt;/i&gt;
+                &lt;i class="fa fa-ellipsis-v card__icons" aria-hidden="true"&gt;&lt;/i&gt;
+              &lt;/div&gt;
+            
+          &lt;/div&gt;
 
-</div>
+        &lt;/div&gt;
+      </code>
+            </pre>
+            
+        <!-- </div> -->
 
-
-
-        </div>
-    
         <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/highlight.min.js"></script>
         <script>
           hljs.highlightAll();
         </script>
 </body>
+
 </html>

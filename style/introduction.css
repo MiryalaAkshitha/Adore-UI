@@ -1,4 +1,7 @@
-
+.heading,.content{
+  align-self: flex-start;
+  padding:0.625rem;
+}
 
 .side-bar{
     padding:20px 10px 0 0px;

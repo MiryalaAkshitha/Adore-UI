@@ -18,6 +18,8 @@
     <div class="side-bar">
       <div class="component component-heading">Get Started</div>
       <div class="component"><a href="/docs/getting-started/introduction.html">Installation</a></div>
+      <div class="component"><a href="/components/text-utilities/text-utilities.html">Typography</a></div>
+
       <div class="component component-heading">Components</div>
       <div class="component"> <a href="/components/alert/alert.html">Alert</a></div>
       <div class="component"><a href="/components/avatar/avatar.html">Avatar</a></div>
@@ -32,23 +34,18 @@
     </div>
     <div class="main-content">
       <h2 class="heading">Input</h2>
-      <p class="content">Input is used in taking data from the user</p>
-      <h3 class="heading">Simple Input</h3>
-  <div class="main--inputContainer">
-    <form class="inputContainer">
-        <div>
-          <label>Username * </label>
-          <input
-            type="text"
-            placeholder="Enter Username"
-            class="input"
-            required
-          />
-        </div>
-        <pre>
-          <code class="html">
-        &lt;label&gt;Username * &lt;/label&gt;
-          &lt;input
+      <p class="content">Input is used while taking data from the user</p>
+      <h2 class="heading">Simple Input</h2>
+      <div class="main--inputContainer">
+        <form class="inputContainer">
+          <div>
+            <label>Username * </label>
+            <input type="text" placeholder="Enter Username" class="input" required />
+          </div>
+          <pre>
+           <code class="html">
+         &lt;label&gt;Username * &lt;/label&gt;
+           &lt;input
             type="text"
             placeholder="Enter Username"
             class="input"
@@ -56,17 +53,12 @@
           /&gt;
           </code>
         </pre>
-        <h3 class="heading">Incorrect Input</h3>
-        <div>
-          <label class="incorrect">Password * </label>
-          <input
-            type="password"
-            placeholder="Enter Password"
-            class="input incorrect-password"
-            required
-          />
-          <p class="incorrect">Incorrect password</p>
-          <pre>
+          <h3 class="heading">Incorrect Input</h3>
+          <div>
+            <label class="incorrect">Password * </label>
+            <input type="password" placeholder="Enter Password" class="input incorrect-password" required />
+            <p class="incorrect">Incorrect password</p>
+            <pre>
             <code class="html">
           &lt;label class="incorrect"&gt;Password * &lt;/label&gt;
           &lt;input
@@ -78,59 +70,59 @@
             &lt;p class="incorrect"&gt;Incorrect password&lt;/p&gt;
             </code>
           </pre>
-          
 
+
+          </div>
+        </form>
+
+        <!-- Radio -->
+        <h2 class="heading">Radio Button</h2>
+        <div class="radio-container">
+          <div>
+            <input type="radio" name="radio" id="checked" />
+            <label for="checked">male</label>
+          </div>
+
+          <div>
+            <input type="radio" name="radio" id="unchecked" />
+            <label for="unchecked">female</label>
+          </div>
+
+          <div>
+            <input type="radio" name="radio" id="unchecked" disabled />
+            <label for="unchecked">Disabled</label>
+          </div>
         </div>
-      </form>
-  
-      <!-- Radio -->
-      <h3 class="heading">Radio Button</h3>
-      <div class="radio-container">
-        <div>
-          <input type="radio" name="radio" id="checked" />
-          <label for="checked">male</label>
-        </div>
-  
-        <div>
-          <input type="radio" name="radio" id="unchecked" />
-          <label for="unchecked">female</label>
-        </div>
-  
-        <div>
-          <input type="radio" name="radio" id="unchecked" disabled />
-          <label for="unchecked">Disabled</label>
-        </div>
-      </div>
         <pre>
           <code class="html">
-            &lt;input type="radio" name="radio" id="checked" /&gt;
-          &lt;label for="checked"&gt;male&lt;/label&gt;
-          &lt;input type="radio" name="radio" id="unchecked" /&gt;
-          &lt;label for="unchecked"&gt;female&lt;/label&gt;
-          &lt;input type="radio" name="radio" id="unchecked" disabled /&gt;
-          &lt;label for="unchecked"&gt;Disabled&lt;/label&gt;
-</code>
+        &lt;input type="radio" name="radio" id="checked" /&gt;
+           &lt;label for="checked"&gt;male&lt;/label&gt;
+           &lt;input type="radio" name="radio" id="unchecked" /&gt;
+           &lt;label for="unchecked"&gt;female&lt;/label&gt;
+           &lt;input type="radio" name="radio" id="unchecked" disabled /&gt;
+        &lt;label for="unchecked"&gt;Disabled&lt;/label&gt;
+      </code>
         </pre>
-    
-  
-      <!-- CheckBox -->
-<h3 class="heading">checkbox</h3>
-      <div class="checkbox-container">
-        <div>
-          <input type="checkbox" id="checkbox1" />
-          <label for="checkbox1">Check box 1</label>
+
+
+        <!-- CheckBox -->
+        <h3 class="heading">Checkbox</h3>
+        <div class="checkbox-container">
+          <div>
+            <input type="checkbox" id="checkbox1" />
+            <label for="checkbox1">Check box 1</label>
+          </div>
+
+          <div>
+            <input type="checkbox" id="checkbox2" />
+            <label for="checkbox2">Check box 2</label>
+          </div>
+
+          <div>
+            <input type="checkbox" id="checkbox-disabled" disabled />
+            <label for="checkbox-disabled">Disabled</label>
+          </div>
         </div>
-  
-        <div>
-          <input type="checkbox" id="checkbox2" />
-          <label for="checkbox2">Check box 2</label>
-        </div>
-  
-        <div>
-          <input type="checkbox" id="checkbox-disabled" disabled />
-          <label for="checkbox-disabled">Disabled</label>
-        </div>
-      </div>
         <pre>
           <code class="html">
           &lt;input type="checkbox" id="checkbox1" /&gt;
@@ -141,11 +133,12 @@
           &lt;label for="checkbox-disabled"&gt;Disabled&lt;/label&gt;
           </code>
         </pre>
-      
-      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/highlight.min.js"></script>
-  <script>
-    hljs.highlightAll();
-  </script>
-  </div>
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/highlight.min.js"></script>
+        <script>
+          hljs.highlightAll();
+        </script>
+      </div>
 </body>
+
 </html>

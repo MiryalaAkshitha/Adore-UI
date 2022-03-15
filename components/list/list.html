@@ -18,6 +18,8 @@
     <div class="side-bar">
       <div class="component component-heading">Get Started</div>
       <div class="component"><a href="/docs/getting-started/introduction.html">Installation</a></div>
+      <div class="component"><a href="/components/text-utilities/text-utilities.html">Typography</a></div>
+
       <div class="component component-heading">Components</div>
       <div class="component"> <a href="/components/alert/alert.html">Alert</a></div>
       <div class="component"><a href="/components/avatar/avatar.html">Avatar</a></div>
@@ -31,50 +33,85 @@
 
     </div>
     <div class="main-content">
-        <h3 class="heading">List</h3>
-        <p class="content">List are used in various purposes</p>
-        <h3 class="heading">Simple List</h3>
+        <h2 class="heading">List</h2>
+        <p class="content">Lists are continuous, vertical indexes of text or images.</p>
 
     <!-- unordered list -->
     <div class="list__container">
+        
+        <h2 class="heading">Unordered List</h2>
+
         <ul class="list__ul">
             <li>Item one</li>
         <li>Item two</li>
         <li>Item three</li>
         </ul>
+<pre>
+    <code class="html">
+ &lt;ul class="list__ul"&gt;
+    &lt;li&gt;Item one&lt;/li&gt;
+    &lt;li&gt;Item two&lt;/li&gt;
+    &lt;li&gt;Item three&lt;/li&gt;
+    &lt;/ul&gt;
+    </code>
+</pre>
+<h2 class="heading">Ordered List</h2>
+
+        <!-- ordered list -->
+      <ol class="list list__ol">
+        <li class="list-component">Item one</li>
+        <li class="list-component">Item two</li>
+        <li class="list-component">Item three</li>
+       </ol>
+    <pre>
+        <code class="html">
+     &lt;ol class="list list__ol"&gt;
+     &lt;li class="list-component"&gt;Item one&lt;/li&gt;
+     &lt;li class="list-component"&gt;Item two&lt;/li&gt;
+     &lt;li class="list-component"&gt;Item three&lt;/li&gt;
+     &lt;/ol&gt;
+        </code>
+    </pre>
+
+    <h2 class="heading">Square List</h2>
         <!-- square unordered  -->
-    <ul class="list__ul ul__square">
+     <ul class="list__ul ul__square">
         <li>Item one</li>
         <li>Item two</li>
         <li>Item three</li>
-    </ul>
+     </ul>
+    <pre>
+        <code class="html">
+  &lt;ul class="list__ul ul__square"&gt;
+     &lt;li&gt;Item one&lt;/li&gt;
+     &lt;li&gt;Item two&lt;/li&gt;
+     &lt;li&gt;Item three&lt;/li&gt;
+  &lt;/ul&gt;
+        </code>
+    </pre>
+    <h2 class="heading">Stacked List</h2>
     <!-- non-bullet unordered  -->
     <ul class="list__ul ul__nonBullet">
         <li class="list-component">Item one</li>
         <li class="list-component">Item two</li>
         <li class="list-component">Item three</li>
     </ul>
-    <!-- ordered list -->
-    <ol class="list list__ol">
-        <li class="list-component">Item one</li>
-        <li class="list-component">Item two</li>
-        <li class="list-component">Item three</li>
-    </ol>
-    <!-- stacked list -->
-    <ol class="stacked list__ol">
-        <li class="list-component">Item one</li>
-        <ul>
-        <li class="list-component">Item one 1</li>
-        <li class="list-component">Item one 2</li>
-        </ul>
-        <li class="list-component">Item two</li>
-        <ul>
-            <li class="list-component">Item two 1</li>
-            <li class="list-component">Item two 2</li>
-            <li class="list-component">Item two 3</li>
-        </ul>
-        <li class="list-component">Item three</li>
-    </ol>
+<pre>
+    <code class="html">
+    &lt;ul class="list__ul ul__nonBullet"&gt;
+        &lt;li class="list-component"&gt;Item one&lt;/li&gt;
+        &lt;li class="list-component"&gt;Item two&lt;/li&gt;
+        &lt;li class="list-component"&gt;Item three&lt;/li&gt;
+     &lt;/ul&gt;
+
+    </code>
+</pre>
     </div>
+
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/highlight.min.js"></script>
+  <script>
+    hljs.highlightAll();
+  </script>
 </body>
 </html>
