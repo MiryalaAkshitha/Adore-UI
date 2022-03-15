@@ -16,7 +16,11 @@
 @import "../components/navigation/navigation.css";
 @import "../components/grid/grid.css";
 @import "../components/rating/rating.css";
+<<<<<<< HEAD
 @import "../components/modal/modal.css";
+=======
+@import "../components/toast/toast.css";
+>>>>>>> 7612fb0ee2bc48d7ceaaf9e5b78bc4ca061611c9
 @import "../style/landing-page.css";
 @import "../style/introduction.css";
 @import "../styles.css";
