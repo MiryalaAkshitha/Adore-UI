@@ -113,7 +113,7 @@ p{
     position:absolute;
     top: 40px;
     left: 5px;
-    background-color:var(--preferred-color);
+    background-color:var(--primary-color);
     color:var(--text-color);
     padding: 2px 0.5rem;
     border-radius: 4px;
@@ -124,7 +124,7 @@ p{
     padding: 0 0.5rem;
 }
 .card-ecom-price-current{
-    color:var(--preferred-color);
+    color:var(--primary-color);
     font-weight:600;
 }
 
@@ -135,7 +135,7 @@ p{
 
 
 .ecom-btn{
-  background-color:var(--preferred-color);
+  background-color:var(--primary-color);
   color:var(--text-color);
   border:none;
   border-radius:0.5rem;
@@ -199,7 +199,7 @@ p{
     position:absolute;
     top: 40px;
     left: 5px;
-    background-color:var(--preferred-color);
+    background-color:var(--primary-color);
     color:var(--text-color);
     padding: 2px 0.5rem;
     border-radius: 4px;
@@ -210,7 +210,7 @@ p{
     padding: 0 0.5rem;
 }
 .card-ecom-price-current{
-    color:var(--preferred-color);
+    color:var(--primary-color);
     font-weight:600;
 }
 
@@ -224,7 +224,7 @@ p{
     cursor: not-allowed;
 }
 .ecom-btn{
-  background-color:var(--preferred-color);
+  background-color:var(--primary-color);
   color:var(--text-color);
   border:none;
   border-radius:0.5rem;

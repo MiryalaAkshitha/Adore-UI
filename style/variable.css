@@ -1,4 +1,4 @@
-:root{--primary-color:rgb(25,118,210);
+:root{--preferred-color:rgb(25,118,210);
     --secondary-color:rgb(24,47,83);
     --success-color:green;
     --error-color:red;
@@ -18,6 +18,6 @@
     --cards-background-color:rgb(250,250,250);
     --paragraph-text-color:rgb(90,90,90);
     --heading-color:rgb(134,134,134);
-    --preferred-color:rgb(240,86,122);
+    --primary-color:rgb(240,86,122);
 
   }
