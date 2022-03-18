@@ -4,6 +4,9 @@
   padding:0.7rem;
   border-top-left-radius: 0.3rem;
   border-top-right-radius: 0.3rem;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width:100%;
   
   
 }
@@ -16,6 +19,5 @@
   display:flex;
   flex-wrap:wrap;
   color:var(--text-color);
-  margin-left:700px;
   gap:20px;
 }

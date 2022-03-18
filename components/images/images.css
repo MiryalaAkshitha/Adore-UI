@@ -1,10 +1,13 @@
 .roundImg__container{
   width:80%;
 }
-  .img__responsive{
-   width: 100%;
+  .responsive__img{
+   width:100%;
    height: auto;
    object-fit: cover; 
+}
+.responsiveImg__container{
+  width:100%;
 }
 
   .round__img{
